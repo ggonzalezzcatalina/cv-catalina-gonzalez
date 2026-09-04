@@ -9,75 +9,112 @@
 
 <body>
     <header id="cabecera">
-        <img src="img/g.jpg" alt="Logo G" width="25" height="25" />
 
-        <nav class="botonera">
-            <a href="#">Perfil Profesional</a>
-            <a href="#">Experiencia Laboral</a>
-            <a href="#">Formación Académica</a>
-            <a href="#">Manejo de Herramientas</a>
-        </nav>
+        <div class="cabecera-arriba">
+            <img src="img/g.jpg" alt="logo-g" width="25" height="25" />
 
-        <div class="hero-foto">
-            <img src="" alt="">
+            <nav class="botonera">
+                <a href="#perfil">Perfil Profesional</a>
+                <a href="#experiencia">Experiencia Laboral</a>
+                <a href="#formacion">Formación Académica</a>
+                <a href="#herramientas">Manejo de Herramientas</a>
+            </nav>
+        </div>
 
-            <div>
-                <h1>CATALINA<br>GONZÁLEZ</h1>
-            </div>
+        <div class="datos-personales">
+            <h1>CATALINA<br>GONZÁLEZ</h1>
 
-            <div>
-                <span class="contacto-item">gonzalezzcatalina@outlook.com <br> Buenos Aires, Argentina</span>
+            <div class="datos-contacto">
+                <p>gonzalezzcatalina@outlook.com</p>
+                <p>Buenos Aires, Argentina</p>
             </div>
         </div>
+
     </header>
 
     <main>
-        <article>
+        <article id="perfil">
             <h2>Perfil Profesional</h2>
             <p>Diseñadora en formación, con interés en la comunicación visual, el diseño editorial y el desarrollo de
                 piezas gráficas. Cuento con habilidades para conceptualizar y desarrollar propuestas visuales,
                 utilizando herramientas de diseño digital. Me caracterizo por la creatividad, la responsabilidad, la
                 organización y la atención al detalle.</p>
         </article>
-        <section>
-            <h3>Experiencia Laboral</h3>
-            <p>Community Manager
-                Agencia Social Media — Buenos Aires <br> Enero 2023 – Diciembre 2024 <br> Gestión y administración de
-                redes sociales de diferentes marcas y emprendimientos. <br> Creación, planificación y publicación de contenido para Instagram, Facebook y TikTok. <br>
-                Elaboración de calendarios de contenido y planificación. <br>
-                Redacción de textos para publicaciones. <br>
-                Seguimiento de métricas y análisis del rendimiento de las publicaciones.</p>
-            <p> Diseñadora Gráficoa Junior
-                Estudio Creativo Prisma — Buenos Aires<br>Marzo 2024 – Actualidad<br>Diseño de piezas gráficas para
-                redes sociales, campañas y comunicación institucional.
-                Desarrollo de identidad visual y adaptación de piezas para diferentes formatos.
-                Preparación de archivos para impresión y medios digitales.
-                Colaboración con el equipo creativo en la conceptualización y desarrollo de proyectos.</p>
+
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+
+            <article class="experiencia">
+                <div class="encabezado">
+                    <h3>Community Manager - Agencia Social Media</h3>
+                    <span class="fechas">Enero 2023 – Diciembre 2024 </span>
+                </div>
+                <ul>
+                    <li>Gestión y administración de redes sociales de diferentes marcas y emprendimientos.</li>
+                    <li>Creación, planificación y publicación de contenido para Instagram, Facebook y TikTok.</li>
+                    <li>Elaboración de calendarios de contenido y planificación.</li>
+                    <li>Redacción de textos para publicaciones.</li>
+                    <li>Seguimiento de métricas y análisis del rendimiento de las publicaciones.</li>
+                </ul>
+            </article>
+
+            <article>
+            <div class="encabezado">
+                <h3>Diseñadora Gráfica Junior - Estudio Creativo Prisma</h3>
+                <span class="fechas">Marzo 2024 – Actualidad </span>
+            </div>
+            <ul>
+                <li>Diseño de piezas gráficas para redes sociales, campañas y comunicación institucional.</li>
+                <li>Desarrollo de identidad visual y adaptación de piezas para diferentes formatos.</li>
+                <li>Preparación de archivos para impresión y medios digitales.</li>
+                <li>Colaboración con el equipo creativo en la conceptualización y desarrollo de proyectos.</li>
+            </ul>
+            </article>
         </section>
 
-        <section>
-            <h4>Formación Académica</h4>
-            <p>Licenciatura en Diseño y Comunicación Visual<br>Universidad Nacional de Lanús<br>En curso</p>
 
-            <p>Curso de Testing QA<br>Talento Tech<br>Finalizado</p>
+        <section id= "formacion">
+            <h2>Formación Académica</h2>
 
-            <p>Community Manager <br>Coder House <br>Finalizado</p>
+            <article class="formacion">
+                <div class="encabezado">
+                    <h3> Licenciatura en Diseño y comunicación Visual </h3>
+                    <span class="fecha"> En curso </span>
+                </div>
+                <p class="institucion"> Universidad Nacional de Lanús </p>
+            </article>
+
+            <article class="formacion">
+                <div class="encabezado">
+                    <h3> Curso de Testing QA </h3>
+                    <span class="fecha"> Finalizado </span>
+                </div>
+                <p class="institucion"> Talento Tech </p>
+            </article>
+
+            <article class="formacion">
+                <div class="encabezado">
+                    <h3> Community Manager </h3>
+                    <span class="fecha"> Finalizado </span>
+                </div>
+                <p class="institucion"> Coder House </p>
+            </article>
         </section>
 
-        <section>
-            <h5>Manejo de Herramientas</h5>
+        <section id="herramientas"> 
+            <h2>Manejo de Herramientas</h2>
             <ul>
                 <li>
-                    <img src="img/pngphotoshop2.png" alt="logo photoshop">
+                    <img src="img/pngphotoshop2.png" alt="icono de adobe photoshop">
                     <a href="https://www.adobe.com/ar/products/photoshop.html">Photoshop</a>
                 </li>
                 <li>
-                    <img src="img/illustratorpng2.png" alt="logo illustrator">
+                    <img src="img/illustratorpng2.png" alt="icono de adobe illustrator">
                     <a href="https://www.adobe.com/ar/products/illustrator.html">Illustrator</a>
                 </li>
                 <li>
-                    <img src="img/indesingg.png" alt="logo indesing">
-                    <a href="https://www.adobe.com/ar/products/indesign.html">InDesing</a>
+                    <img src="img/indesingg.png" alt="icono de adobe indesign">
+                    <a href="https://www.adobe.com/ar/products/indesign.html">InDesign</a>
                 </li>
             </ul>
         </section>
@@ -86,6 +123,7 @@
     <footer class="pie-pagina">
         <p> 2026 Catalina González - Todos los derechos reservados.</p>
     </footer>
-    
+
 </body>
+
 </html>
