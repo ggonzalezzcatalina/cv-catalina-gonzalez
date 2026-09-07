@@ -1,12 +1,11 @@
-h1,
-.titulo-nombre {
-    color: whitesmoke !important;
-    font-size: 50px;
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .botonera {
-    width: auto;
-    height: auto;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -14,24 +13,21 @@ h1,
 }
 
 .botonera a {
-    color: white !important;
+    color: white;
     text-decoration: none;
     font-size: 15px;
 }
 
 #cabecera {
-    background-color: black !important;
-    width: auto;
-    height: auto;
-    margin: 0% auto;
+    background-color: black;
     border-radius: 16px;
     padding: 40px 50px;
-    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-#cabecera p,
-.contacto-item {
-    color: white !important;
+#cabecera p {
+    color: white;
 }
 
 @font-face {
@@ -62,15 +58,13 @@ margin-bottom: 35px;
     font-style: normal;
 }
 
-* {
-    font-family: 'montserrat', sans-serif;
-}
-
 h1 {
     font-family: 'montserrat b', sans-serif;
     text-align: start;
-    line-height: 0.9;
+    line-height: 1.1;
     margin-bottom: 8px;
+    color: whitesmoke;
+    font-size: 50px;
 }
 
 h2 {
@@ -79,28 +73,14 @@ h2 {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 16px;
-    border-bottom: 2px;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
 }
 
 h3 {
-    line-height: 3rem;
     font-size: 16px;
-    margin-top: 35px;
     margin-bottom: 12px;
     font-family: 'montserrat sb', sans-serif;
-}
-
-h4 {
-    font-size: 18px;
-    font-family: 'montserrat b', sans-serif;
-    text-align: start;
-}
-
-h5 {
-    font-size: 18px;
-    font-family: 'montserrat b', sans-serif;
-    text-align: start;
 }
 
 p {
@@ -110,16 +90,13 @@ p {
     margin-bottom: 20px;
 }
 
-.contacto-item {
-    color: white !important;
-}
-
 body {
     background-color: whitesmoke;
 }
 
 main {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px 0;
     overflow: hidden;
@@ -127,17 +104,16 @@ main {
 
 footer {
     background-color: black;
-    width: 100% !important;
-    padding: 25px 20px !important;
-    margin-top: 40px !important; 
-    display: block !important;  
-    box-sizing: border-box !important;
+    width: 100%;
+    padding: 25px 20px;
+    display: block;  
     border-radius: 16px;
+    max-width: 1200px;
+    margin: 20px auto ;
 }
 
 footer p {
-    color: white;
-    margin: 0 !important; 
+    color: white; 
     text-align: center;
     font-size: 14px;
 }
@@ -146,7 +122,6 @@ footer p {
     flex-wrap: wrap;
     gap: 15px;
     list-style: none;
-    padding: 0;
     margin-top: 15px;
     display: flex;
 }
@@ -184,22 +159,12 @@ main section ul li img {
     font-size: 14px;
 }
 
-.encabezado h3{
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0;
-}
-
 .encabezado {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 6px;
 }
-
-.fecha {
-    margin: 0;
- }
 
 .experiencia {
     margin-bottom: 20px;
@@ -214,13 +179,6 @@ main article {
     margin-bottom: 18px;
 }
 
-.encabezado {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 0;
-}
-
 .encabezado h3 {
     font-size: 16px;
     font-weight: 600;
@@ -228,13 +186,13 @@ main article {
 }
 
 .institucion {
-    margin: 3px 0 0 0;
+    margin: 3px;
     line-height: 1.3;
 }
 
 article ul {
     display: block;
-    padding:0;
+    padding-left: 20px;
     margin-top: 4px;
     margin-bottom: 16px;
     list-style-type: disc;
@@ -244,9 +202,5 @@ article ul {
 article ul li {
     display: list-item;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    height: auto;
-    min-height: 0;
 }
 
